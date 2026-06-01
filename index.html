@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CRM Multi-Negocio v10</title>
+<title>CRM Multi-Negocio v1</title>
 <style>
 :root{--bg:#eef3fb;--panel:#fff;--text:#0f172a;--muted:#64748b;--line:#dbe3ef;--pri:#4f46e5;--pri2:#7c3aed;--ok:#059669;--warn:#d97706;--danger:#dc2626;--soft:#f5f7ff;--shadow:0 18px 50px rgba(15,23,42,.08);--r:22px}
 *{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at top,#f8fbff 0,#eef3fb 45%,#e7edf8 100%);color:var(--text);font-size:15px;line-height:1.45}
@@ -142,8 +142,8 @@ function doPost(e){
   if(action==='push') return json({ok:true, rows:pushRows(body)});
   return json({ok:false, error:'unsupported'});
 }
-const SHEET_ID='PASTE_SPREADSHEET_ID';
-const TOKEN='PASTE_SHARED_TOKEN';
+const SHEET_ID='14c_lOqdC4w-hKfC23LBLktDvTbEtTNKhoiBdjAiGvmk';
+const TOKEN='';
 const SCHEMA=${JSON.stringify(SCHEMAS,null,2)};
 function ss(){return SpreadsheetApp.openById(SHEET_ID)}
 function json(obj){return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON)}
