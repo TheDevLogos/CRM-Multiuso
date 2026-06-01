@@ -1,4 +1,4 @@
-# CRM Multi-Negocio v10
+# CRM Multi-Negocio
 
 CRM multi-tenant en un solo archivo HTML, preparado para publicar en GitHub Pages o cualquier hosting estático y conectar con Google Apps Script + Google Sheets como backend ligero.
 
